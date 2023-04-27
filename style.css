@@ -1,0 +1,19 @@
+html {
+    background-color: #D1E6DF;
+    font-size: 62.5%;
+}
+
+
+body{
+font-size: 16px; /* 1rem = 10px */
+}
+
+.titulos{
+    text-align: center;
+    color: #877749;
+    font-family: 'Rubik', sans-serif;
+}
+
+.doña-martita{
+    font-size: 2rem;
+}
