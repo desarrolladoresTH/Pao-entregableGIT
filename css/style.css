@@ -4,6 +4,7 @@
     --tres: #eee9c7;
     --fuente: 'Rubik', sans-serif;
 }
+
 html {
     background-color: var(--uno);
     font-size: 62.5%;
