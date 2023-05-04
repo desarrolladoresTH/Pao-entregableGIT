@@ -1,26 +1,69 @@
-:root{
-    --uno: #e6d1ca;
-    --dos: #ec8a90;
-    --tres: #eee9c7;
-    --fuente: 'Rubik', sans-serif;
+:root {
+  --uno: #eee9c7;
+  --dos: #ec8a90;
+  --tres: #e6d1ca;
+  --fuente: "Rubik", sans-serif;
 }
 
 html {
-    background-color: var(--uno);
-    font-size: 62.5%;
+  background-color: var(--uno);
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-body{
-    font-size: 16px; /* 1rem = 10px */
-    text-align: center;
+body {
+  font-size: 16px; /* 1rem = 10px */
+  font-family: var(--fuente);
+  text-align: center;
 }
 
-.titulos{
-    text-align: center;
-    color: var(--dos);
-    font-family: var(--fuente);
+.titulo {
+  color: var(--dos);
+}
+.titulos {
+  color: var(--dos);
 }
 
-.doña-martita{
-    font-size: 2rem;
+.doña-martita {
+  font-size: 2rem;
+}
+
+.navegacion {
+  background-color: var(--tres);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion a {
+  color: var(--dos);
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navegacion a:hover {
+  background-color: var(--dos);
+  color: var(--tres);
+}
+
+.contenedor {
+  width: 80rem;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-bottom: 0rem;
+  margin-left: auto;
+}
+
+.agrandar-nav {
+  background-color: var(--tres);
+}
+
+.fondo {
+  background-image: url(../img/frutas.jpg);
+  background-size: cover;
+  height: 40rem;
 }
