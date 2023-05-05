@@ -1,7 +1,7 @@
 :root {
   --uno: #eee9c7;
-  --dos: #ec8a90;
-  --tres: #e6d1ca;
+  --dos: #4a0f29;
+  --tres: #ed7b83;
   --fuente: "Rubik", sans-serif;
 }
 
@@ -19,43 +19,51 @@ body {
   text-align: center;
 }
 
-.titulo {
-  color: var(--dos);
-}
-.titulos {
-  color: var(--dos);
+h1 {
+  color: var(--tres);
 }
 
-.doña-martita {
+.titulo {
+  color: var(--dos);
+  margin-top: 0;
+  padding: 6rem;
+}
+
+.titulos {
+  color: var(--tres);
+}
+
+span {
   font-size: 2rem;
 }
 
 .navegacion {
-  background-color: var(--tres);
+  background-color: var(--dos);
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .navegacion a {
-  color: var(--dos);
+  color: var(--tres);
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
 }
 
 .navegacion a:hover {
-  background-color: var(--dos);
-  color: var(--tres);
+  background-color: var(--tres);
+  color: var(--dos);
 }
 
 .contenedor {
-  width: 80rem;
+  width: auto;
   margin-top: 0rem;
   margin-right: auto;
   margin-bottom: 0rem;
   margin-left: auto;
+  justify-content: space-around;
 }
 
 .agrandar-nav {
@@ -63,7 +71,8 @@ body {
 }
 
 .fondo {
-  background-image: url(../img/frutas.jpg);
+  background-image: url(../img/toronja.jpg);
   background-size: cover;
   height: 40rem;
+  width: auto;
 }
